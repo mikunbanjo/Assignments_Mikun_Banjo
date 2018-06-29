@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<h2>JavaScript Functions</h2>
+<title>Page Title</title>
+
+<p> id="demo"></p>
+
+<script>
+Function myFunction(p1, p2)	{
+	return p1 * p2;
+}
+document.getElementById("demo").innerHTML = myFunction(4, 3);
+</script>
+
+
+</body>
+</html>
+
