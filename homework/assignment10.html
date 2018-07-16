@@ -1,11 +1,60 @@
+
 <!DOCTYPE html>
 <html>
-<title>HTML Tutorial</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+</style>
+</head>
 <body>
 
-<h1>UMBC</h1>
-<p>University of Maryland Baltimore County</p>
-<img src="umbc.jpg" width="50%" height="50%".>
-  
+<h2>UMBC</h2>
+<p>University of Maryland Baltimore County:</p>
+
+<div class="container">
+  <img src="umbc.jpg" alt="UMBC" style="width:100%;">
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left">Top Left</div>
+  <div class="top-right">Top Right</div>
+  <div class="bottom-right">Bottom Right</div>
+  <div class="centered">Centered</div>
+</div>
+
 </body>
-</html>
+</html> 
